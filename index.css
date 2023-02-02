@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    background: rgb(229, 223, 211);
+}
+.container{
+    max-width: 490px;
+    margin: 0 auto;
+    background-color: white;
+    height: auto;
+    display: flexbox;
+    border-radius: 10px;
+    border: white;
+}
+.card{
+    display: flex;
+}
+img{
+    width: 230px;
+    height: auto;
+    border-radius: 5px;
+}
+.details{
+    padding: 20px;
+}
+#p1{
+    font-family: 'Space Mono', monospace;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+h1{
+    font-family: 'Fraunces', serif;
+}
+#h1{
+    color:  rgba(96, 146, 96, 0.973);
+}
+button{
+    background-color: rgba(96, 146, 96, 0.973);
+    border: none;
+    width: 80%;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
